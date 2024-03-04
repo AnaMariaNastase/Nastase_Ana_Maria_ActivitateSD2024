@@ -13,7 +13,7 @@ struct Magazin citesteMagazin() {
 	printf("Introduceti codul magazinului: ");
 	scanf_s("%d", &magazin.cod);
 	printf("Introduceti denumirea magazinului: ");
-	char den[100];
+	char den[101];
 	scanf_s("%s", den,100);
 	magazin.denumire = (char*)malloc(strlen(den) + 1);
 	strcpy(magazin.denumire, den);
