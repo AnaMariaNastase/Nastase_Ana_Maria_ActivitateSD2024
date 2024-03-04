@@ -7,6 +7,7 @@ struct Magazin {
 	int nrProduse;
 	float* preturi;
 };
+////Functie de citire a unui magazin de la tastatura
 struct Magazin citesteMagazin() {
 	struct Magazin magazin;
 	printf("Introduceti codul magazinului: ");
